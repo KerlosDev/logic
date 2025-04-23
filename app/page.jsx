@@ -234,31 +234,31 @@ export default function Home() {
                 {[
                   {
                     name: "Kerlos Hany",
-                    role: "Lead Developer",
+                    role: "FrontEnd Developer Next JS 15",
                     gradient: "from-blue-500 to-cyan-500",
                     shadowColor: "shadow-blue-500/20"
                   },
                   {
-                    name: "Zyad Aymen",
-                    role: "Backend Engineer",
+                    name: "Ziad Ayman",
+                    role: "Backend Engineer C++",
                     gradient: "from-purple-500 to-pink-500",
                     shadowColor: "shadow-purple-500/20"
                   },
                   {
                     name: "Shimaa Wael",
-                    role: "UI/UX Designer",
+                    role: "Backend Engineer C#",
                     gradient: "from-pink-500 to-rose-500",
                     shadowColor: "shadow-pink-500/20"
                   },
                   {
                     name: "Akaber Ahmed",
-                    role: "Frontend Developer",
+                    role: "Backend Engineer C#",
                     gradient: "from-orange-500 to-amber-500",
                     shadowColor: "shadow-orange-500/20"
                   },
                   {
-                    name: "Asser Ahmed",
-                    role: "Full Stack Developer",
+                    name: "Asser Mohammed",
+                    role: "Backend Engineer C#",
                     gradient: "from-emerald-500 to-teal-500",
                     shadowColor: "shadow-emerald-500/20"
                   }
