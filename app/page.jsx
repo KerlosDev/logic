@@ -99,7 +99,7 @@ export default function Home() {
         {/* Header Section */}
         <div className="mb-8 text-center">
           <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
-          Digital logic and Design project
+            Digital logic and Design project
           </h1>
           <p className="text-gray-400 mt-2"> logic gates in code</p>
         </div>
@@ -236,31 +236,36 @@ export default function Home() {
                     name: "Kerlos Hany",
                     role: "FrontEnd Developer Next JS 15",
                     gradient: "from-blue-500 to-cyan-500",
-                    shadowColor: "shadow-blue-500/20"
+                    shadowColor: "shadow-blue-500/20",
+                    type: "male"
                   },
                   {
                     name: "Ziad Ayman",
                     role: "Backend Engineer C++",
                     gradient: "from-purple-500 to-pink-500",
-                    shadowColor: "shadow-purple-500/20"
+                    shadowColor: "shadow-purple-500/20",
+                    type: "male"
                   },
                   {
                     name: "Shimaa Wael",
                     role: "Backend Engineer C#",
                     gradient: "from-pink-500 to-rose-500",
-                    shadowColor: "shadow-pink-500/20"
+                    shadowColor: "shadow-pink-500/20",
+                    type: "female"
                   },
                   {
                     name: "Akaber Ahmed",
                     role: "Backend Engineer C#",
                     gradient: "from-orange-500 to-amber-500",
-                    shadowColor: "shadow-orange-500/20"
+                    shadowColor: "shadow-orange-500/20",
+                    type: "female"
                   },
                   {
                     name: "Asser Mohammed",
                     role: "Backend Engineer C#",
                     gradient: "from-emerald-500 to-teal-500",
-                    shadowColor: "shadow-emerald-500/20"
+                    shadowColor: "shadow-emerald-500/20",
+                    type: "male"
                   }
                 ].map((member, index) => (
                   <div
@@ -276,9 +281,9 @@ export default function Home() {
                               <div className={`absolute inset-0 rounded-full bg-gradient-to-br ${member.gradient} animate-pulse-slow blur-sm`} />
                               <div className="absolute inset-[2px] rounded-full bg-gray-900" />
                               <img
-                                src={`https://api.dicebear.com/6.x/personas/svg?seed=${member.name}`}
+                                src={member.type === 'female' ? '/woman.png' : '/boy.png'}
                                 alt={member.name}
-                                className="absolute inset-2 rounded-full bg-gray-900 ring-2 ring-white/10 transition-transform duration-300 group-hover:scale-110"
+                                className="absolute inset-0 w-full h-full object-cover rounded-full ring-2 ring-white/10 transition-transform duration-300 group-hover:scale-110"
                               />
                             </div>
                             <h3 className="text-xl font-bold text-white drop-shadow-glow">{member.name}</h3>
